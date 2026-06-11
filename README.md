@@ -10,7 +10,7 @@
 
 ### Hej, buduję produkty AI i serwery MCP 🇵🇱
 
-I ship AI tooling and data products for the Polish market: company registry APIs, phone reputation, and Model Context Protocol servers that plug straight into Claude, Cursor and any MCP client. Solo builder behind several products, running everything end to end from data and backend to UI and deployment.
+I ship AI tooling and data products for the Polish market: company registry APIs, phone reputation, and Model Context Protocol servers that plug straight into Claude, Cursor and any MCP client. Solo builder behind several products and two companies, WebyJuice and WebySolution, running everything end to end from data and backend to UI and deployment.
 
 ---
 
