@@ -1,22 +1,20 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:8b5cf6&height=200&section=header&text=WebyJuice&fontColor=ffffff&fontSize=72&desc=AI%20products%20and%20MCP%20servers%20for%20the%20Polish%20market&descAlignY=64&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:8b5cf6&height=200&section=header&text=AI%20Products%20%26%20MCP%20Servers&fontColor=ffffff&fontSize=46&desc=Independent%20builder%20shipping%20products%20across%20several%20ventures&descAlignY=64&descSize=16" />
 </p>
 
 <p align="center">
-  <a href="https://webyjuice.pl"><img src="https://img.shields.io/badge/web-webyjuice.pl-6366f1?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="https://registry.modelcontextprotocol.io/v0/servers?search=numertel"><img src="https://img.shields.io/badge/MCP_Registry-pl.numertel%2Fnumertel-8b5cf6?style=flat-square" /></a>
   <img src="https://img.shields.io/badge/focus-AI%20automation%20%C2%B7%20data%20products-242424?style=flat-square" />
+  <img src="https://img.shields.io/badge/region-Poland%20%F0%9F%87%B5%F0%9F%87%B1-6366f1?style=flat-square" />
 </p>
 
-### Hej, buduję produkty AI i serwery MCP 🇵🇱
+## 🇬🇧 English
 
-I ship AI tooling and data products for the Polish market: company registry APIs, phone reputation, and Model Context Protocol servers that plug straight into Claude, Cursor and any MCP client. Solo builder behind several products and two companies, WebyJuice and WebySolution, running everything end to end from data and backend to UI and deployment.
+Hi, I build AI products and MCP servers for the Polish market. I run several ventures and ship everything end to end: data, backend, API, UI and deployment. Not tied to one brand, I build across all of my own companies and products.
 
----
+### 🔌 MCP Servers
 
-## 🔌 MCP Servers
-
-**[numertel-mcp](https://github.com/AMR-DEV-PS/numertel-mcp)** lets any AI assistant check a Polish phone number: who called, is it spam or a scam, is it really the bank. Backed by 130M numbers built on official UKE ranges, the state DNO registry, user reports and CERT Polska's Warning List. Listed in the official MCP registry.
+**[numertel-mcp](https://github.com/AMR-DEV-PS/numertel-mcp)** lets any AI assistant check a Polish phone number: who called, is it spam or a scam, is it really the bank. Backed by 130M numbers from official UKE ranges, the state DNO registry, user reports and CERT Polska's Warning List. Listed in the official MCP registry.
 
 ```json
 { "mcpServers": { "numertel": { "url": "https://numertel.pl/api/mcp" } } }
@@ -31,17 +29,14 @@ I ship AI tooling and data products for the Polish market: company registry APIs
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=AMR-DEV-PS&repo=numertel-mcp&theme=react&hide_border=true&bg_color=0d1117" />
 </a>
 
----
+### 🚀 Products and ventures
 
-## 🚀 Products
-
-- **[NIPRegon](https://nipregon.pl)** — Polish company registry portal and developer API. NIP, REGON, KRS, financial filings and entity graphs from official registers, behind a clean API with key-based access.
+- **[NIPRegon](https://nipregon.pl)** — Polish company registry portal and developer API: NIP, REGON, KRS, financial filings and entity graphs from official registers, behind a clean key-based API.
 - **[Numertel](https://numertel.pl)** — phone reputation for Poland. 130M numbers, spam and scam detection, bank-hotline verification. [Developer API](https://numertel.pl/dla-deweloperow).
-- **[WebyJuice](https://webyjuice.pl)** — AI automation and web development studio. Custom AI agents, integrations and production web apps.
+- **[WebyJuice](https://webyjuice.pl)** — AI automation and web development studio.
+- **WebySolution** — software and product company.
 
----
-
-## 🛠 Stack
+### 🛠 Stack
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" />
@@ -56,9 +51,7 @@ I ship AI tooling and data products for the Polish market: company registry APIs
   <img src="https://img.shields.io/badge/MCP-6366f1?style=flat-square" />
 </p>
 
----
-
-## 📊 GitHub
+### 📊 GitHub
 
 <p>
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=AMR-DEV-PS&show_icons=true&theme=react&hide_border=true&bg_color=0d1117&include_all_commits=true" />
@@ -67,7 +60,17 @@ I ship AI tooling and data products for the Polish market: company registry APIs
 
 ---
 
-## 📫 Connect
+## 🇵🇱 Polski
 
-[![Web](https://img.shields.io/badge/webyjuice.pl-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://webyjuice.pl)
-[![Numertel API](https://img.shields.io/badge/Numertel_for_devs-242424?style=for-the-badge&logo=readthedocs&logoColor=white)](https://numertel.pl/dla-deweloperow)
+Cześć, buduję produkty AI i serwery MCP na rynek polski. Prowadzę kilka własnych firm i robię wszystko end to end: dane, backend, API, UI i wdrożenie. Nie jestem przypisany do jednej marki, buduję dla wszystkich swoich firm i produktów.
+
+### 🔌 Serwery MCP
+
+**[numertel-mcp](https://github.com/AMR-DEV-PS/numertel-mcp)** pozwala dowolnemu asystentowi AI sprawdzić polski numer telefonu: kto dzwonił, czy to spam lub oszustwo, czy to naprawdę bank. Oparty o 130M numerów z zakresów UKE, rejestru DNO, zgłoszeń użytkowników i Listy Ostrzeżeń CERT Polska. W oficjalnym rejestrze MCP.
+
+### 🚀 Produkty i firmy
+
+- **[NIPRegon](https://nipregon.pl)** — portal i API rejestrów firmowych: NIP, REGON, KRS, sprawozdania finansowe i powiązania, z dostępem przez klucz API.
+- **[Numertel](https://numertel.pl)** — reputacja numerów telefonów. 130M numerów, wykrywanie spamu i oszustw, weryfikacja infolinii bankowych. [API dla deweloperów](https://numertel.pl/dla-deweloperow).
+- **[WebyJuice](https://webyjuice.pl)** — studio automatyzacji AI i web developmentu.
+- **WebySolution** — firma software'owo-produktowa.
