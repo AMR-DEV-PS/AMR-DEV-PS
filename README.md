@@ -3,8 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://registry.modelcontextprotocol.io/v0/servers?search=numertel"><img src="https://img.shields.io/badge/MCP_Registry-pl.numertel%2Fnumertel-8b5cf6?style=flat-square" /></a>
-  <img src="https://img.shields.io/badge/focus-AI%20automation%20%C2%B7%20data%20products-242424?style=flat-square" />
+  <a href="https://registry.modelcontextprotocol.io/v0/servers?search=numertel"><img src="https://img.shields.io/badge/MCP_Registry-pl.numertel-8b5cf6?style=flat-square" /></a>
+  <a href="https://registry.modelcontextprotocol.io/v0/servers?search=nipregon"><img src="https://img.shields.io/badge/MCP_Registry-pl.nipregon-8b5cf6?style=flat-square" /></a>
+  <img src="https://img.shields.io/badge/focus-AI%20%C2%B7%20data%20products-242424?style=flat-square" />
   <img src="https://img.shields.io/badge/region-Poland-6366f1?style=flat-square" />
 </p>
 
@@ -14,16 +15,18 @@ Hi, I build AI products and MCP servers for the Polish market. I run several ven
 
 ### 🔌 MCP Servers
 
-**[numertel-mcp](https://github.com/AMR-DEV-PS/numertel-mcp)** lets any AI assistant check a Polish phone number: who called, is it spam or a scam, is it really the bank. Backed by 130M numbers from official UKE ranges, the state DNO registry, user reports and CERT Polska's Warning List. Listed in the official MCP registry.
+Two servers in the official MCP registry, both backed by live Polish data and reachable over remote streamable HTTP or stdio.
+
+**[numertel-mcp](https://github.com/AMR-DEV-PS/numertel-mcp)** · `pl.numertel/numertel` — check a Polish phone number from any AI assistant: who called, is it spam or a scam, is it really the bank. 130M numbers from UKE ranges, the state DNO registry, user reports and CERT Polska.
+
+**[nipregon-mcp](https://github.com/AMR-DEV-PS/nipregon-mcp)** · `pl.nipregon/nipregon` — look up Polish companies: 4.4M entities, KRS and REGON data, VAT white list checks and financial statements.
 
 ```json
-{ "mcpServers": { "numertel": { "url": "https://numertel.pl/api/mcp" } } }
+{ "mcpServers": {
+  "numertel": { "url": "https://numertel.pl/api/mcp" },
+  "nipregon": { "url": "https://api.nipregon.pl/mcp" }
+} }
 ```
-
-| Tool | What it does |
-| --- | --- |
-| `check_phone_number` | Operator, risk label, DNO spoofing flag, verified hotline whitelist, report counts |
-| `pogoda_spamowa` | Live phone-abuse indicators for Poland (new scam domains, DNO registry size) |
 
 ### 🚀 Products and ventures
 
@@ -55,7 +58,11 @@ Cześć, buduję produkty AI i serwery MCP na rynek polski. Prowadzę kilka wła
 
 ### 🔌 Serwery MCP
 
-**[numertel-mcp](https://github.com/AMR-DEV-PS/numertel-mcp)** pozwala dowolnemu asystentowi AI sprawdzić polski numer telefonu: kto dzwonił, czy to spam lub oszustwo, czy to naprawdę bank. Oparty o 130M numerów z zakresów UKE, rejestru DNO, zgłoszeń użytkowników i Listy Ostrzeżeń CERT Polska. W oficjalnym rejestrze MCP.
+Dwa serwery w oficjalnym rejestrze MCP, oba oparte o żywe polskie dane, dostępne zdalnie (streamable HTTP) lub przez stdio.
+
+**[numertel-mcp](https://github.com/AMR-DEV-PS/numertel-mcp)** · `pl.numertel/numertel` — sprawdzenie polskiego numeru telefonu z dowolnego asystenta AI: kto dzwonił, czy to spam lub oszustwo, czy to naprawdę bank. 130M numerów z zakresów UKE, rejestru DNO, zgłoszeń i CERT Polska.
+
+**[nipregon-mcp](https://github.com/AMR-DEV-PS/nipregon-mcp)** · `pl.nipregon/nipregon` — wyszukiwanie polskich firm: 4.4M podmiotów, dane KRS i REGON, weryfikacja białej listy VAT i sprawozdania finansowe.
 
 ### 🚀 Produkty i firmy
 
